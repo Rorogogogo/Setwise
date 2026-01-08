@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		93AF60372F0F9C7800ED26D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93AF60202F0F9C7800ED26D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93AF60272F0F9C7800ED26D4;
+			remoteInfo = SetWise;
+		};
+		93AF60412F0F9C7800ED26D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93AF60202F0F9C7800ED26D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93AF60272F0F9C7800ED26D4;
+			remoteInfo = SetWise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93AF60282F0F9C7800ED26D4 /* SetWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AF60362F0F9C7800ED26D4 /* SetWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AF60402F0F9C7800ED26D4 /* SetWiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetWiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		93AF602A2F0F9C7800ED26D4 /* SetWise */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SetWise;
+			sourceTree = "<group>";
+		};
+		93AF60392F0F9C7800ED26D4 /* SetWiseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SetWiseTests;
+			sourceTree = "<group>";
+		};
+		93AF60432F0F9C7800ED26D4 /* SetWiseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SetWiseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93AF60252F0F9C7800ED26D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AF60332F0F9C7800ED26D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AF603D2F0F9C7800ED26D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93AF601F2F0F9C7800ED26D4 = {
+			isa = PBXGroup;
+			children = (
+				93AF602A2F0F9C7800ED26D4 /* SetWise */,
+				93AF60392F0F9C7800ED26D4 /* SetWiseTests */,
+				93AF60432F0F9C7800ED26D4 /* SetWiseUITests */,
+				93AF60292F0F9C7800ED26D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93AF60292F0F9C7800ED26D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93AF60282F0F9C7800ED26D4 /* SetWise.app */,
+				93AF60362F0F9C7800ED26D4 /* SetWiseTests.xctest */,
+				93AF60402F0F9C7800ED26D4 /* SetWiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93AF60272F0F9C7800ED26D4 /* SetWise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93AF604A2F0F9C7900ED26D4 /* Build configuration list for PBXNativeTarget "SetWise" */;
+			buildPhases = (
+				93AF60242F0F9C7800ED26D4 /* Sources */,
+				93AF60252F0F9C7800ED26D4 /* Frameworks */,
+				93AF60262F0F9C7800ED26D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				93AF602A2F0F9C7800ED26D4 /* SetWise */,
+			);
+			name = SetWise;
+			packageProductDependencies = (
+			);
+			productName = SetWise;
+			productReference = 93AF60282F0F9C7800ED26D4 /* SetWise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93AF60352F0F9C7800ED26D4 /* SetWiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93AF604D2F0F9C7900ED26D4 /* Build configuration list for PBXNativeTarget "SetWiseTests" */;
+			buildPhases = (
+				93AF60322F0F9C7800ED26D4 /* Sources */,
+				93AF60332F0F9C7800ED26D4 /* Frameworks */,
+				93AF60342F0F9C7800ED26D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93AF60382F0F9C7800ED26D4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				93AF60392F0F9C7800ED26D4 /* SetWiseTests */,
+			);
+			name = SetWiseTests;
+			packageProductDependencies = (
+			);
+			productName = SetWiseTests;
+			productReference = 93AF60362F0F9C7800ED26D4 /* SetWiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93AF603F2F0F9C7800ED26D4 /* SetWiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93AF60502F0F9C7900ED26D4 /* Build configuration list for PBXNativeTarget "SetWiseUITests" */;
+			buildPhases = (
+				93AF603C2F0F9C7800ED26D4 /* Sources */,
+				93AF603D2F0F9C7800ED26D4 /* Frameworks */,
+				93AF603E2F0F9C7800ED26D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93AF60422F0F9C7800ED26D4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				93AF60432F0F9C7800ED26D4 /* SetWiseUITests */,
+			);
+			name = SetWiseUITests;
+			packageProductDependencies = (
+			);
+			productName = SetWiseUITests;
+			productReference = 93AF60402F0F9C7800ED26D4 /* SetWiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93AF60202F0F9C7800ED26D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					93AF60272F0F9C7800ED26D4 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					93AF60352F0F9C7800ED26D4 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 93AF60272F0F9C7800ED26D4;
+					};
+					93AF603F2F0F9C7800ED26D4 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 93AF60272F0F9C7800ED26D4;
+					};
+				};
+			};
+			buildConfigurationList = 93AF60232F0F9C7800ED26D4 /* Build configuration list for PBXProject "SetWise" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93AF601F2F0F9C7800ED26D4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 93AF60292F0F9C7800ED26D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93AF60272F0F9C7800ED26D4 /* SetWise */,
+				93AF60352F0F9C7800ED26D4 /* SetWiseTests */,
+				93AF603F2F0F9C7800ED26D4 /* SetWiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93AF60262F0F9C7800ED26D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AF60342F0F9C7800ED26D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AF603E2F0F9C7800ED26D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93AF60242F0F9C7800ED26D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AF60322F0F9C7800ED26D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AF603C2F0F9C7800ED26D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93AF60382F0F9C7800ED26D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93AF60272F0F9C7800ED26D4 /* SetWise */;
+			targetProxy = 93AF60372F0F9C7800ED26D4 /* PBXContainerItemProxy */;
+		};
+		93AF60422F0F9C7800ED26D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93AF60272F0F9C7800ED26D4 /* SetWise */;
+			targetProxy = 93AF60412F0F9C7800ED26D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93AF60482F0F9C7900ED26D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HF2X933H6N;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93AF60492F0F9C7900ED26D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HF2X933H6N;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		93AF604B2F0F9C7900ED26D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SetWise/SetWise.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HF2X933H6N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.SetWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		93AF604C2F0F9C7900ED26D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SetWise/SetWise.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HF2X933H6N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.SetWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		93AF604E2F0F9C7900ED26D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HF2X933H6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.SetWiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SetWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SetWise";
+			};
+			name = Debug;
+		};
+		93AF604F2F0F9C7900ED26D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HF2X933H6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.SetWiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SetWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SetWise";
+			};
+			name = Release;
+		};
+		93AF60512F0F9C7900ED26D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HF2X933H6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.SetWiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SetWise;
+			};
+			name = Debug;
+		};
+		93AF60522F0F9C7900ED26D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HF2X933H6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.SetWiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SetWise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93AF60232F0F9C7800ED26D4 /* Build configuration list for PBXProject "SetWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AF60482F0F9C7900ED26D4 /* Debug */,
+				93AF60492F0F9C7900ED26D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93AF604A2F0F9C7900ED26D4 /* Build configuration list for PBXNativeTarget "SetWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AF604B2F0F9C7900ED26D4 /* Debug */,
+				93AF604C2F0F9C7900ED26D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93AF604D2F0F9C7900ED26D4 /* Build configuration list for PBXNativeTarget "SetWiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AF604E2F0F9C7900ED26D4 /* Debug */,
+				93AF604F2F0F9C7900ED26D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93AF60502F0F9C7900ED26D4 /* Build configuration list for PBXNativeTarget "SetWiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AF60512F0F9C7900ED26D4 /* Debug */,
+				93AF60522F0F9C7900ED26D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93AF60202F0F9C7800ED26D4 /* Project object */;
+}
